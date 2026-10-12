@@ -1,0 +1,34 @@
+name: Bernalier Monthly Report
+
+# 1st of each month: builds the client report (English HTML) + internal notes (Hebrew)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 1 * *'
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Build report
+        run: python -m engine.monthly_report
+      - uses: actions/upload-artifact@v4
+        with:
+          name: monthly-report
+          path: reports/
+      - name: Commit reports
+        run: |
+          git config user.name "bernalier-engine-bot"
+          git config user.email "bot@a-webm.com"
+          git add reports/ || true
+          git commit -m "Monthly report [skip ci]" || echo "no changes"
+          git pull --rebase || true
+          git push || echo "nothing to push"
