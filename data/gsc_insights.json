@@ -1,0 +1,14 @@
+{
+ "generated": "2026-10-12",
+ "strengthen": [],
+ "low_ctr": [],
+ "cannibalization": [],
+ "geo_demand": {},
+ "expansion": {
+  "enabled": true,
+  "pending_before": 79,
+  "added": [],
+  "total_pages_in_map": 82,
+  "cap": 250
+ }
+}
