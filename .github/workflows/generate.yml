@@ -1,6 +1,6 @@
 name: Bernalier pSEO Engine
 
-# Run manually (button in Actions tab) OR automatically every Monday (slow drip: 5 pages/week)
+# Run manually (button in Actions tab) OR automatically every Monday (slow drip: 8 pages/week)
 on:
   workflow_dispatch:
     inputs:
@@ -23,8 +23,11 @@ on:
         default: '3'
         type: string
   schedule:
-    # 06:00 UTC every Monday — slow, steady page growth (not a spike)
-    - cron: '0 6 * * 1'
+    # 06:00 UTC Monday + Thursday, 4 pages each = 8/week (steady drip, not a spike)
+    - cron: '0 6 * * 1,4'
+
+permissions:
+  contents: write   # lets the bot commit data/generation_state.json back to the repo
 
 jobs:
   generate:
@@ -51,7 +54,7 @@ jobs:
         run: |
           # scheduled runs = full refresh, live; manual = use the inputs
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            python run.py --batch all --live --limit 5
+            python run.py --batch all --live --limit 4
           else
             LIVE_FLAG=""
             if [ "${{ github.event.inputs.live }}" = "true" ]; then LIVE_FLAG="--live"; fi
@@ -72,5 +75,3 @@ jobs:
           git add data/generation_state.json || true
           git commit -m "Update generation state [skip ci]" || echo "no changes"
           git push || echo "nothing to push"
-
-    
