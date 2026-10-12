@@ -1,4 +1,4 @@
-    name: Bernalier pSEO Engine
+name: Bernalier pSEO Engine
 
 # Run manually (button in Actions tab) OR automatically every Monday (slow drip: 5 pages/week)
 on:
