@@ -1,0 +1,136 @@
+{
+  "_comment": "DATA LAYER — single source of truth for BernalierPups pSEO. Edit values here; every generated page reads from this. NEVER hardcode facts into page templates. Breed facts pulled directly from the live /bernalier-mini-bernese-mountain-dog/ breed guide and /bernalier-pricing/ + /health-guarantee/ pages on 2026-09-24.",
+
+  "breed": {
+    "primary_name": "Bernalier",
+    "synonyms": ["Mini Bernese Mountain Dog", "Bernelier", "Mini Berner", "Miniature Bernese Mountain Dog"],
+    "composition": {
+      "primary": {"label": "Bernalier", "cross": "Bernese Mountain Dog x Cavalier King Charles Spaniel", "share_pct": 100}
+    },
+    "RED_LINE": "NEVER mention Poodle, Doodle, or Bernedoodle. This breed is NOT crossed with Poodle — it is Bernese Mountain Dog x Cavalier King Charles Spaniel.",
+
+    "size": {
+      "weight_lbs": {"min": 25, "max": 50, "typical": "25-50"},
+      "height_in": {"min": 13, "max": 20},
+      "full_grown_months": {"min": 12, "max": 12},
+      "growth_stages": [
+        {"age": "8-12 weeks", "weight_lbs": "5-10"},
+        {"age": "6 months", "weight_lbs": "20-30"},
+        {"age": "12 months", "note": "close to full adult size"}
+      ]
+    },
+    "lifespan_years": {"min": 10, "max": 14},
+    "coat": {
+      "colors": ["tri-color (black, white, tan)", "red-and-white", "sable"],
+      "type": "medium-length, soft, slight wave",
+      "shedding": "moderate year-round, heavier in spring and fall"
+    },
+    "temperament": ["calm", "gentle", "loving", "loyal", "devoted", "great with children", "good with other dogs and cats", "smart", "eager to please", "moderate energy (30-45 min/day exercise)"],
+    "health": {
+      "common_concerns": ["hip and elbow dysplasia (Bernese side)", "heart conditions (Cavalier side, some individuals)", "ear infections (floppy ears)"],
+      "note": "The cross draws from two well-established breeds; routine vet visits, a healthy diet, and proper grooming are recommended preventive care."
+    }
+  },
+
+  "pricing": {
+    "_note": "DYNAMIC — pull live from the evergreen /bernalier-pricing/ page (see engine/pricing.py). This page states BASE ranges by color, not per-litter prices like MGR, and does not rotate monthly the way the 'for sale' pages do.",
+    "bi_color_usd": {"min": 2500, "max": 3500},
+    "tri_color_usd": {"min": 2800, "max": 4000},
+    "average_usd": 3200,
+    "deposit_usd": 300,
+    "deposit_refundable": true,
+    "deposit_terms": "Refundable up to 2 years from deposit date IF the puppy has not yet been reserved (9% processing fee on refund). Once a specific puppy is reserved, the $300 is non-refundable/non-transferable and applies to the balance on Adoption Day.",
+    "healthcare_fee_usd": 200,
+    "healthcare_fee_note": "Pre-adoption healthcare/homecare fee (vaccines, preventative care, vet/medical care before pickup). Added to base price. Not taxed.",
+    "sales_tax_note": "6% sales tax applies ONLY to puppies picked up or delivered in South Carolina. Puppies shipped to other states do not include sales tax.",
+    "discounts_usd": {"service": 100, "ministry": 100, "homeschool": 100, "referral": 100}
+  },
+
+  "breeder": {
+    "brand": "Bernalier Pups",
+    "network": "Crockett Pups",
+    "location": {"city": "Greenville", "state": "South Carolina", "state_abbr": "SC"},
+    "phone": "(864) 794-3134",
+    "trust_signals": ["Genetic Testing", "Family-Raised", "Microchipped", "Refundable Deposit", "Health Guarantee"]
+  },
+
+  "health_guarantee": {
+    "effective_date": "2025-06-01",
+    "automatic_tier": {"years": 1, "coverage": "congenital/genetic issues, up to 100% of puppy purchase price — AUTOMATIC, included with every puppy"},
+    "extended_tier": {
+      "years": 12,
+      "conditional_on": [
+        "owner purchases and maintains Pet Insurance for at least the first 6 months of ownership",
+        "owner uses one of the recommended pet foods (purchased only through provided links)"
+      ],
+      "coverage": "deductibles and copay costs, up to the price of the puppy",
+      "void_if": "Pet Insurance not maintained for the first 6 months (partial credit toward another puppy possible if the recommended-food condition is still met)"
+    },
+    "generator_instruction": "ALWAYS describe the 12-year tier as CONDITIONAL, never as automatically included. The 1-year tier IS automatic and can be stated as included."
+  },
+
+  "process": [
+    {"step": "Apply Online", "detail": "Fill out an application at /apply/ to show interest and check family fit"},
+    {"step": "Place a Deposit", "detail": "$300 refundable deposit (before a specific puppy is reserved)"},
+    {"step": "Choose Your Puppy", "detail": "Get matched, then pick up or use delivery — see /delivery-pickup/"}
+  ],
+
+  "cta": {
+    "primary": {"label": "Apply Today", "url": "/apply/"},
+    "secondary": {"label": "Bernalier Pricing", "url": "/bernalier-pricing/"},
+    "phone_cta": "Questions? Call (864) 794-3134"
+  },
+
+  "existing_owner_pages": {
+    "_note": "VERIFIED real URLs pulled via WP REST API from the live site on 2026-09-24. Link only to these. size and lifespan have NO dedicated pillar page yet (unlike MGR) — left null on purpose; the engine falls back to the breed guide (core) for those until dedicated pillars are built.",
+    "core":        "/bernalier-mini-bernese-mountain-dog/",
+    "pricing":     "/bernalier-pricing/",
+    "health":      "/health-guarantee/",
+    "temperament": "/bernalier-temperament/",
+    "faq":         "/frequently-asked-questions/",
+    "parent_dogs": "/parent-dogs/",
+    "about":       "/about-bernaliers/",
+    "training":    "/puppy-training/",
+    "delivery":    "/delivery-pickup/",
+    "process":     "/process/",
+    "apply":       "/apply/",
+    "contact":     "/contact/",
+    "vs_bernese":  "/bernese-mountain-dog-vs-bernalier/",
+    "vs_cavalier": "/cavalier-vs-bernalier/",
+    "size":        null,
+    "lifespan":    null
+  },
+
+  "cannibalization_warning": {
+    "_note": "Full inventory of the site's 49 pages + 7 posts pulled 2026-09-24 via WP REST API. Every 'for sale'/'for adoption' page found is NATIONAL — no state or city targeting at all. The engine's entire opportunity is the location-based long-tail, currently 100% untapped (unlike MGR, which already has 179 location pages live).",
+    "for_sale_general": "17 existing litter/for-sale/adoption pages already cover generic national 'for sale'/'for adoption' intent, published roughly monthly by Andrew and never deleted — avoid generating generic for-sale pages of any kind.",
+    "comparisons": "bernese-mountain-dog-vs-bernalier, cavalier-vs-bernalier, bernese-mountain-dog-vs-cavalier, cavalier-king-charles-spaniel already exist — do not regenerate.",
+    "homepage_owns": "The HOMEPAGE ('home' slug, root /) ranks for the head term 'Mini Bernese Mountain Dog Puppies for Sale' — never generate pages targeting that head term + for-sale intent nationally.",
+    "blocked_categories": ["sale", "adoption", "core", "comparison"],
+    "blocked_duplicate_intents": ["price: general cost/price", "temperament: general", "health: general"],
+    "blocked_national_intents": [
+      "what is a bernalier",
+      "bernalier breed guide",
+      "bernalier pricing",
+      "bernalier temperament",
+      "health guarantee",
+      "bernese mountain dog vs bernalier",
+      "cavalier vs bernalier",
+      "bernese mountain dog vs cavalier",
+      "cavalier king charles spaniel",
+      "puppy training",
+      "frequently asked questions"
+    ],
+    "existing_manual_pages_for_sale_adoption": [
+      "f1-bernalier-puppies-for-sale-born-may-23", "mini-bernese-mountain-dog-puppies-for-sale",
+      "f1-bernalier-pups-for-sale", "f1-bernaliers-for-sale-born-november-18",
+      "f1-bernalier-pups-born-december-6", "f1-bernalier-puppies-for-sale",
+      "mini-bernese-puppies-for-sale", "bernalier-puppies-for-sale",
+      "july-2024-bernalier-pups", "f1-mini-berneses-pups-for-sale",
+      "f1-mini-bernese-pups-for-sale", "bernaliers-for-adoption",
+      "bernaliers-for-sale", "bernalier-pups-for-adoption",
+      "f1-bernaliers-for-sale", "august-2025-f1-bernalier-puppies-for-sale",
+      "mini-bernese-puppies"
+    ]
+  }
+}
