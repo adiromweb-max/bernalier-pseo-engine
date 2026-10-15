@@ -24,7 +24,7 @@ on:
         type: string
   schedule:
     # 06:00 UTC Monday + Thursday, 4 pages each = 8/week (steady drip, not a spike)
-    - cron: '0 6 * * 1,4'
+    - cron: '17 6 * * 1,4'
 
 permissions:
   contents: write   # lets the bot commit data/generation_state.json back to the repo
@@ -45,6 +45,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run engine
+        shell: bash
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BERNALIER_WP_USER: ${{ secrets.BERNALIER_WP_USER }}
@@ -54,11 +55,11 @@ jobs:
         run: |
           # scheduled runs = full refresh, live; manual = use the inputs
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            python run.py --batch all --live --limit 4
+            python run.py --batch all --live --limit 4 2>&1 | tee run.log
           else
             LIVE_FLAG=""
             if [ "${{ github.event.inputs.live }}" = "true" ]; then LIVE_FLAG="--live"; fi
-            python run.py --batch ${{ github.event.inputs.batch }} $LIVE_FLAG --limit ${{ github.event.inputs.limit }}
+            python run.py --batch ${{ github.event.inputs.batch }} $LIVE_FLAG --limit ${{ github.event.inputs.limit }} 2>&1 | tee run.log
           fi
 
       - name: Upload generated pages (for review)
@@ -75,3 +76,15 @@ jobs:
           git add data/generation_state.json || true
           git commit -m "Update generation state [skip ci]" || echo "no changes"
           git push || echo "nothing to push"
+
+      - name: Notify Adi (summary / failure alert)
+        if: always()
+        continue-on-error: true
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python -m engine.notify generate ${{ job.status }} run.log
+
