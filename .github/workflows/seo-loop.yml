@@ -1,42 +1,45 @@
-name: Bernalier SEO Loop
+name: Bernalier Monthly Report
 
-# Weekly (Wednesday): check indexing -> pull Search Console data -> auto-expand the page map
-# -> refresh internal-link silos. Replaces the separate index-check workflow.
+# 1st of each month: builds the client report (English HTML) + internal notes (Hebrew)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 7 * * 3'
+    - cron: '41 8 1 * *'
 
 permissions:
   contents: write
 
 jobs:
-  loop:
+  report:
     runs-on: ubuntu-latest
-    env:
-      BERNALIER_WP_USER: ${{ secrets.BERNALIER_WP_USER }}
-      BERNALIER_WP_APP_PASS: ${{ secrets.BERNALIER_WP_APP_PASS }}
-      GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
-      GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
-      BERNALIER_AUTO_EXPAND: ${{ vars.BERNALIER_AUTO_EXPAND || 'true' }}
-      BERNALIER_MAX_PAGES: ${{ vars.BERNALIER_MAX_PAGES || '250' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Indexing check + sitemap resubmit
-        run: python -m engine.index_check
-      - name: Search Console feedback loop (+ auto-expand)
-        run: python -m engine.gsc_loop
-      - name: Refresh internal-link silos
-        run: python -m engine.relink --apply
-      - name: Commit data
+      - name: Build report
+        run: python -m engine.monthly_report
+      - uses: actions/upload-artifact@v4
+        with:
+          name: monthly-report
+          path: reports/
+      - name: Commit reports
         run: |
           git config user.name "bernalier-engine-bot"
           git config user.email "bot@a-webm.com"
-          git add data/ || true
-          git commit -m "SEO loop: update data [skip ci]" || echo "no changes"
+          git add reports/ || true
+          git commit -m "Monthly report [skip ci]" || echo "no changes"
           git pull --rebase || true
           git push || echo "nothing to push"
+      - name: Notify Adi
+        if: always()
+        continue-on-error: true
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python -m engine.notify report ${{ job.status }} /dev/null
+
