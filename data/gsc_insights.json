@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-14",
+ "generated": "2026-10-19",
  "strengthen": [],
  "low_ctr": [],
  "cannibalization": [],
  "geo_demand": {},
  "expansion": {
   "enabled": true,
-  "pending_before": 79,
+  "pending_before": 69,
   "added": [],
   "total_pages_in_map": 82,
   "cap": 250
