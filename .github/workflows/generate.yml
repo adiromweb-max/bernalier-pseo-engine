@@ -51,7 +51,7 @@ jobs:
           BERNALIER_WP_USER: ${{ secrets.BERNALIER_WP_USER }}
           BERNALIER_WP_APP_PASS: ${{ secrets.BERNALIER_WP_APP_PASS }}
           # set repo variable BERNALIER_PUBLISH_STATUS=publish to go live automatically; default = draft
-          BERNALIER_PUBLISH_STATUS: ${{ vars.BERNALIER_PUBLISH_STATUS || 'draft' }}
+          BERNALIER_PUBLISH_STATUS: ${{ vars.BERNALIER_PUBLISH_STATUS || 'publish' }}
         run: |
           # scheduled runs = full refresh, live; manual = use the inputs
           if [ "${{ github.event_name }}" = "schedule" ]; then
