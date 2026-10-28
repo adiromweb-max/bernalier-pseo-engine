@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-28",
+ "window": {
+  "current": [
+   "2026-09-28",
+   "2026-10-25"
+  ],
+  "previous": [
+   "2026-08-31",
+   "2026-09-27"
+  ]
+ },
+ "totals": {
+  "clicks": 0,
+  "impressions": 0,
+  "avg_position": 0,
+  "pages_with_impressions": 0
+ },
+ "prev_totals": {
+  "clicks": 0,
+  "impressions": 0,
+  "avg_position": 0,
+  "pages_with_impressions": 0
+ },
+ "pages": {},
+ "prev_pages": {}
+}
