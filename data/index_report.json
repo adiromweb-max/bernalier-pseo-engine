@@ -1,8 +1,64 @@
 {
-  "checked": "2026-11-11T15:31:25.007480Z",
-  "published": 45,
-  "indexed": 43,
+  "checked": "2026-11-18T16:39:39.805095Z",
+  "published": 53,
+  "indexed": 47,
   "pages": [
+    {
+      "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-tucson-arizona/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-17T03:55:04Z",
+      "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-tucson-arizona/"
+    },
+    {
+      "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-phoenix-arizona/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-arizona/",
+      "verdict": "NEUTRAL",
+      "state": "URL is unknown to Google",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-colorado-springs-colorado/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-17T04:09:42Z",
+      "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-colorado-springs-colorado/"
+    },
+    {
+      "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-denver-colorado/",
+      "verdict": "NEUTRAL",
+      "state": "Discovered - currently not indexed",
+      "lastCrawl": null,
+      "canonical": null
+    },
+    {
+      "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-colorado/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T03:13:32Z",
+      "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-colorado/"
+    },
+    {
+      "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-ann-arbor-michigan/",
+      "verdict": "PASS",
+      "state": "Submitted and indexed",
+      "lastCrawl": "2026-11-13T09:03:19Z",
+      "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-ann-arbor-michigan/"
+    },
+    {
+      "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-naperville-illinois/",
+      "verdict": "NEUTRAL",
+      "state": "Discovered - currently not indexed",
+      "lastCrawl": null,
+      "canonical": null
+    },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-grand-rapids-michigan/",
       "verdict": "PASS",
@@ -14,7 +70,7 @@
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-detroit-michigan/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-09T20:31:46Z",
+      "lastCrawl": "2026-11-14T01:39:39Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-detroit-michigan/"
     },
     {
@@ -35,7 +91,7 @@
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-illinois/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T17:35:17Z",
+      "lastCrawl": "2026-11-08T13:10:10Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-illinois/"
     },
     {
@@ -56,14 +112,14 @@
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-nashville-tennessee/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T19:29:59Z",
+      "lastCrawl": "2026-11-15T05:26:57Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-nashville-tennessee/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-tennessee/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T18:41:44Z",
+      "lastCrawl": "2026-11-15T03:34:05Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-tennessee/"
     },
     {
@@ -98,21 +154,21 @@
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-philadelphia-pennsylvania/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T20:58:57Z",
+      "lastCrawl": "2026-11-17T19:22:29Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-philadelphia-pennsylvania/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-pennsylvania/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T17:47:23Z",
+      "lastCrawl": "2026-11-13T17:00:04Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-pennsylvania/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-greenville-south-carolina/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T19:59:59Z",
+      "lastCrawl": "2026-11-15T14:11:59Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-greenville-south-carolina/"
     },
     {
@@ -126,14 +182,14 @@
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-cleveland-ohio/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T17:59:33Z",
+      "lastCrawl": "2026-11-13T02:50:45Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-cleveland-ohio/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-columbus-ohio/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T18:53:49Z",
+      "lastCrawl": "2026-11-17T21:58:43Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-columbus-ohio/"
     },
     {
@@ -153,7 +209,7 @@
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-charleston-south-carolina/",
       "verdict": "NEUTRAL",
-      "state": "Discovered - currently not indexed",
+      "state": "URL is unknown to Google",
       "lastCrawl": null,
       "canonical": null
     },
@@ -168,14 +224,14 @@
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-atlanta-georgia/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T18:23:36Z",
+      "lastCrawl": "2026-11-15T04:11:36Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-atlanta-georgia/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-columbia-south-carolina/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T19:44:59Z",
+      "lastCrawl": "2026-11-10T00:53:56Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-columbia-south-carolina/"
     },
     {
@@ -189,7 +245,7 @@
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-georgia/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T17:23:18Z",
+      "lastCrawl": "2026-11-15T15:51:02Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-georgia/"
     },
     {
@@ -238,28 +294,28 @@
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-miami-florida/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T17:53:29Z",
+      "lastCrawl": "2026-11-17T07:51:15Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-miami-florida/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-sacramento-california/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T19:35:58Z",
+      "lastCrawl": "2026-11-12T13:52:53Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-sacramento-california/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-san-francisco-california/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T19:50:59Z",
+      "lastCrawl": "2026-11-13T00:58:11Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-san-francisco-california/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-austin-texas/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T18:47:54Z",
+      "lastCrawl": "2026-11-18T11:31:54Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-austin-texas/"
     },
     {
@@ -273,28 +329,28 @@
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-florida/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T18:17:40Z",
+      "lastCrawl": "2026-11-13T16:48:54Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-florida/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-san-antonio-texas/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T19:23:59Z",
+      "lastCrawl": "2026-11-14T15:17:27Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-san-antonio-texas/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-california/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-06T10:01:31Z",
+      "lastCrawl": "2026-11-12T22:14:19Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-california/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-los-angeles-california/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T20:03:00Z",
+      "lastCrawl": "2026-11-13T01:35:40Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-los-angeles-california/"
     },
     {
@@ -308,14 +364,14 @@
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-houston-texas/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T18:35:42Z",
+      "lastCrawl": "2026-11-13T18:47:05Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-houston-texas/"
     },
     {
       "url": "https://www.bernalierpups.com/guide/bernalier-puppy-price-texas/",
       "verdict": "PASS",
       "state": "Submitted and indexed",
-      "lastCrawl": "2026-11-05T17:29:13Z",
+      "lastCrawl": "2026-11-15T07:56:57Z",
       "canonical": "https://www.bernalierpups.com/guide/bernalier-puppy-price-texas/"
     }
   ]

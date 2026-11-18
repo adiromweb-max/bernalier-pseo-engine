@@ -1,0 +1,321 @@
+{
+ "date": "2026-11-18",
+ "window": {
+  "current": [
+   "2026-10-19",
+   "2026-11-15"
+  ],
+  "previous": [
+   "2026-09-21",
+   "2026-10-18"
+  ]
+ },
+ "totals": {
+  "clicks": 4,
+  "impressions": 99,
+  "avg_position": 14.3,
+  "pages_with_impressions": 32
+ },
+ "prev_totals": {
+  "clicks": 0,
+  "impressions": 0,
+  "avg_position": 0,
+  "pages_with_impressions": 0
+ },
+ "pages": {
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-austin-texas/": {
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 3,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-illinois/": {
+   "clicks": 1,
+   "impressions": 8,
+   "ctr": 0.125,
+   "position": 8.8,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-knoxville-tennessee/": {
+   "clicks": 1,
+   "impressions": 3,
+   "ctr": 0.3333333333333333,
+   "position": 4.7,
+   "queries": [
+    {
+     "q": "bernalier puppies",
+     "clicks": 0,
+     "impr": 1,
+     "pos": 5
+    }
+   ]
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-nashville-tennessee/": {
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 3.5,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-atlanta-georgia/": {
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 7,
+   "queries": [
+    {
+     "q": "bernalier puppies",
+     "clicks": 0,
+     "impr": 1,
+     "pos": 10
+    }
+   ]
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-augusta-georgia/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-california/": {
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 6,
+   "queries": [
+    {
+     "q": "bernalier puppies",
+     "clicks": 0,
+     "impr": 1,
+     "pos": 7
+    }
+   ]
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-charlotte-north-carolina/": {
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-chicago-illinois/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2,
+   "queries": [
+    {
+     "q": "bernalier",
+     "clicks": 0,
+     "impr": 1,
+     "pos": 2
+    }
+   ]
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-cincinnati-ohio/": {
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 5,
+   "queries": [
+    {
+     "q": "bernalier",
+     "clicks": 0,
+     "impr": 1,
+     "pos": 10
+    }
+   ]
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-cleveland-ohio/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-colorado/": {
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 4.7,
+   "queries": [
+    {
+     "q": "bernalier",
+     "clicks": 0,
+     "impr": 1,
+     "pos": 7
+    }
+   ]
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-columbia-south-carolina/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-columbus-ohio/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-dallas-texas/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-detroit-michigan/": {
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-florida/": {
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10.5,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-georgia/": {
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 9.4,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-greensboro-north-carolina/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-houston-texas/": {
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-los-angeles-california/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-memphis-tennessee/": {
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 51.9,
+   "queries": [
+    {
+     "q": "saint bernard puppies for sale memphis",
+     "clicks": 0,
+     "impr": 8,
+     "pos": 85.8
+    },
+    {
+     "q": "bernese mountain dog for sale memphis",
+     "clicks": 0,
+     "impr": 7,
+     "pos": 19.3
+    }
+   ]
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-miami-florida/": {
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9.5,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-michigan/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-north-carolina/": {
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 4.4,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-ohio/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 13,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-orlando-florida/": {
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7.5,
+   "queries": [
+    {
+     "q": "bernalier puppies near me",
+     "clicks": 0,
+     "impr": 1,
+     "pos": 10
+    }
+   ]
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-philadelphia-pennsylvania/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-raleigh-north-carolina/": {
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 8.3,
+   "queries": [
+    {
+     "q": "bernalier full grown",
+     "clicks": 0,
+     "impr": 7,
+     "pos": 10.3
+    }
+   ]
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-sacramento-california/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-san-francisco-california/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2,
+   "queries": []
+  },
+  "https://www.bernalierpups.com/guide/bernalier-puppy-price-south-carolina/": {
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11,
+   "queries": []
+  }
+ },
+ "prev_pages": {}
+}
