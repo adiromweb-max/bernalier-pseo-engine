@@ -4,6 +4,12 @@
  "new_to_generate": 82,
  "note": "Bernalier engine location fan-out \u2014 'price' intent only for the first batch, matching MGR's validated pattern of state+city price pages. All national/comparison/for-sale/temperament/health intents are excluded per cannibalization_warning in data_layer.json (they're all already owned by existing pillar pages or Andrew's manual 'for sale' pages). Expand to other intents (temperament/health/comparison BY LOCATION, if ever wanted) only after confirming with Adi/Andrew \u2014 those topics' NATIONAL versions are already covered, so a location angle would need a genuinely new angle to not be thin content.",
  "pages": [
+  "breeders: mini bernese mountain dog breeders",
+  "size: mini bernese mountain dog full grown size",
+  "lifespan: mini bernese mountain dog lifespan",
+  "variant: small bernese mountain dog",
+  "variant: toy bernese mountain dog",
+  "variant: teacup bernese mountain dog",
   "price: puppy price | Texas",
   "price: puppy price | Houston, Texas",
   "price: puppy price | Dallas, Texas",
