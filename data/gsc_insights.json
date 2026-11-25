@@ -1,14 +1,26 @@
 {
- "generated": "2026-11-18",
- "strengthen": [],
+ "generated": "2026-11-25",
+ "strengthen": [
+  {
+   "page": "https://www.bernalierpups.com/guide/bernalier-puppy-price-memphis-tennessee/",
+   "queries": [
+    {
+     "q": "bernese mountain dog for sale memphis",
+     "clicks": 0,
+     "impr": 13,
+     "pos": 17.5
+    }
+   ]
+  }
+ ],
  "low_ctr": [],
  "cannibalization": [],
  "geo_demand": {},
  "expansion": {
   "enabled": true,
-  "pending_before": 24,
+  "pending_before": 22,
   "added": [],
-  "total_pages_in_map": 82,
+  "total_pages_in_map": 88,
   "cap": 250
  }
 }
